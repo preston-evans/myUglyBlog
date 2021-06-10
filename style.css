@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  height: 100vh;
+}
+nav {
+  height: 5vh;
+  background-color: rgb(71, 67, 67);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 2em;
+  transition: color 0.5s ease-in-out;
+}
+nav a:hover {
+  color: lightgray;
+}
+section {
+  height: 95vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1,
+p {
+  color: white;
+}
+h1 {
+  font-size: 8em;
+  margin-top: 300px;
+}
+p {
+  letter-spacing: 0.9em;
+}
